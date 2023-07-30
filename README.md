@@ -1,2 +1,2 @@
 # spotify-app
-Spotify app (only CSS)
+Spotify app written only with pure CSS.

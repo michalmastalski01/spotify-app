@@ -5,28 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Web Player: Music for everyone</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/89ee136858.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <main class="main-content">
         <section class="left-bar">
             <div class="left-bar-content">
-                <div class="upper-bar">
-                    <button>Home</button>
-                    <button>Search</button>
+                <div class="upper-bar center">
+                    <a href=""><i class="fa-solid fa-house"></i>Home</a>
+                    <a href="http://"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
                 </div>
-                <div class="playlist-bar"></div>
+                <div class="playlist-bar">
+                    <div class="playlist-options center">
+                        <div class="playlist-options-up">
+                            <button class="library-btn"><i class="fa-solid fa-book"></i>Library</button>
+                            <div>
+                                <button><i class="fa-solid fa-plus"></i></button>
+                                <button><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="playlist-options-filters">
+                            <button class="f-playlist">Playlists</button>
+                            <button class="f-playlist">Artists</button>
+                            <button class="f-playlist">Albums</button>
+
+                        </div>
+                    </div>
+                    <div class="playlist-list">
+                        <div class="playlist-sort-menu">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <button>Recent</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="main-content-box">
 
         </section>
     </main>
-    <div class="player-bar">Play</div>
+    <div class="player-bar center">Play (why is this times new roman???)</div>
 </body>
 
 </html>
